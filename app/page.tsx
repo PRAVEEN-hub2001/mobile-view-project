@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import AwesomeSlider from 'react-awesome-slider';
 
 export default function Home() {
   const [menuBar, setMenuBar] = useState(false);
@@ -205,7 +204,7 @@ export default function Home() {
             Dynamic Conversational Flows
           </p>
           <p className="ml-24 mr-24 text-center">
-            Navigate through complex conversations with ease, thanks to our AI's ability to understand and adapt to various conversational pathways.          </p>
+            Navigate through complex conversations with ease, thanks to our AI&quot;s ability to understand and adapt to various conversational pathways.          </p>
           <button className="text-sm rounded-md font-normal	mb-10 mt-10" style={{ width: '100px', height: '40px', background: '#FF9345', color: 'white' }}>Try now</button>
         </div>
         <hr className="hr" />
