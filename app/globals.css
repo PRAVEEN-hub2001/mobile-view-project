@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.top-container {
+  background: linear-gradient(
+    360deg,
+    rgba(255, 207, 135, 0.62) 0%,
+    rgba(255, 153, 0, 0) 79.41%
+  );
+}
+.build-container {
+  background: linear-gradient(94.93deg, #ffa96b 32.4%, #995b2e 208.58%);
+  box-shadow: 0px 4px 4px 0px #0000002e;
+}
+.try-now-container {
+  background: linear-gradient(335.33deg, #ffffff 2.31%, #ffd3b4 116.03%);
+  box-shadow: 0px 4px 4px 0px #0000002e;
+}
+select.minimal {
+  -webkit-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, black 50%),
+    linear-gradient(135deg, black 50%, transparent 50%);
+  background-position: calc(100% - 60px) calc(1em + 2px),
+    calc(100% - 55.1px) calc(1em + 2px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+}
+.menu-bar {
+  background: linear-gradient(180deg, #feecdf 0%, #d38751 100%);
+}
+.explore-button {
+  background: linear-gradient(92.29deg, #fc9850 1.92%, #ad4c06 96.57%);
+  color: white;
+}
+.hr {
+  background: linear-gradient(to right, #ffffff 0%, #f49c5d 35%, #ffffff 100%);
+  height: 1px;
+  border: none;
+}
+.vr{
+  background: linear-gradient(to bottom, #ffffff 0%, #f49c5d 35%, #ffffff 100%);
+  width: 2px;
+  height: 510px;
+}
+.sliders-bg{
+  background-color: #d38751 !important;
+}
+
+.select-box{
+  background-image: url(../public/flag.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
