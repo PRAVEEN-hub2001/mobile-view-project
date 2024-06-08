@@ -33,7 +33,7 @@ export default function Home() {
         <div className="flex items-center justify-center flex-col mt-4 pt-3 pb-3 rounded-lg font-semibold text-xl border-solid border border-gray-600 w-2/4 md:w-1/4 text-center">Hear it in action</div>
       </div>
       <div className="w-full h-full flex items-center justify-center flex-col mt-10 mb-10">
-        <div className=" flex items-center justify-center flex-col rounded-2xl try-now-container mt-10 w-3/4 md:w-1/4 pl-40">
+        <div className=" flex items-center justify-center flex-col rounded-2xl try-now-container mt-10 w-3/4 md:w-1/4 pl-10 pr-10">
           <div className="flex flex-col justify-evenly mt-10 mb-10">
             <p className="text-3xl font-bold text-black-600 mt-10 leading-tight">Try now</p>
             <p className="text-s font-medium text-gray-600 leading-tight mb-1" style={{ color: '#989898' }}>Get a call from Toingg</p>
